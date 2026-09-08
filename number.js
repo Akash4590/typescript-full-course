@@ -5,3 +5,4 @@ var num2 = 30;
 var num3 = 30;
 var total = num1 + num2;
 console.log(total);
+//# sourceMappingURL=number.js.map
