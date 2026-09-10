@@ -16,3 +16,6 @@ var empty: string[] = ["anil", "Akash", "khan"];
 var empdata: [string, number, boolean] = ["Akash", 30, true];
 
 console.log(empdata);
+
+
+

@@ -1,6 +1,12 @@
 "use strict";
-var users = ["Akash", "khan", "mohsin"];
-var marks = [34, 54, 56, 67];
-console.log(users);
-users.push("Ali");
+// var users: string[] = ["Akash", "khan", "mohsin"];
+// var marks: number[] = [34, 54, 56, 67];
+// users.push("Ali");
+// marks.push(10);
+// console.log(marks)
+// console.log(users);
+// ==============Tuple===============
+var empty = ["anil", "Akash", "khan"];
+var empdata = ["Akash", 30, true];
+console.log(empdata);
 //# sourceMappingURL=Array.js.map
