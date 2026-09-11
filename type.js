@@ -19,4 +19,12 @@ var WhoType;
 })(WhoType || (WhoType = {}));
 var who = WhoType.student;
 console.log(WhoType.teacher);
+var fruit;
+(function (fruit) {
+    fruit["a"] = "apple";
+    fruit["b"] = "banana";
+    fruit["c"] = "chery";
+})(fruit || (fruit = {}));
+var myfruit = fruit.a;
+console.log(fruit);
 //# sourceMappingURL=type.js.map
