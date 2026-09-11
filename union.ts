@@ -52,3 +52,17 @@ var techerobj: teachertype = {
   subject: "Math"
 };
 
+
+// ==============intersection in typescript=======
+type personTA={name:string}
+type personTB={age:number}
+type personTC=personTA&personTB
+// var personDataA :{name:string}= {name:"Akash"} 
+// var personDataB :{age:number}= {age:23} 
+var personDataA:personTA = {name:"Akash"} 
+var personDataB:personTB = {age:23} 
+// var personDataC :{name:string,age:number}={name:"khan",age:24}
+
+var personDataC :personTC={name:"khan",age:24}
+
+console.log(personDataC)
